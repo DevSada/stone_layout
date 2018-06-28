@@ -1,0 +1,382 @@
+html,body{
+	height: 100%;
+	color: #333333;
+	font-size:6.5pt;
+	font-family: 'Open Sans Light', sans-serif;
+}
+
+h2 {
+	font-weight: lighter;
+	font-size:11pt;
+	font-family: 'Open Sans Light', sans-serif;
+
+}
+
+.btn{
+	display: inline-block;
+	background-color: #8ACD2C;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 6.5pt;
+	padding:5px 20px;
+	border:2px solid transparent;
+
+}
+
+.btn:hover{
+	background-color: #fff;
+	color:#8ACD2C;
+	border: 2px solid #8ACD2C;
+}
+
+.subheader{
+	display: block;
+	text-transform: uppercase;
+	font-size:17pt;
+	font-family: 'Open Sans bold', sans-serif;
+	line-height: 100%;
+	font-weight: bolder;
+	margin-bottom:40px;
+}
+
+.subheader::after{
+	content: '';
+	display: block;
+	width: 40px;
+	text-align: center;
+	border-top: 5px dashed #8ACD2C;
+	margin-top: 5px;
+}
+
+.row{margin-bottom:20px;}
+
+/*.row div{border:1px solid red;}*/
+/*Header Start*/
+
+
+.page_header .header_logo {
+	text-align: right;
+}
+
+
+.page_header .header_menu a{
+	text-transform: uppercase;
+	color: #333333;
+	line-height: 23px;
+	border-bottom: 2px solid transparent;
+}
+
+.page_header .header_menu a:hover{
+	border-bottom: 2px solid #8ACD2C;
+}
+
+.page_header .header_contacts span{
+	text-transform: uppercase;
+	font-size:13pt;
+}
+
+
+.btn.feedback_call{
+	padding:5px;
+}
+
+
+/*Header End*/
+/*Slider Start*/
+
+.top_slider{	
+	height:344px;
+	background: url(img/slider.jpg) 0 0 no-repeat;
+	background-size: cover;
+	margin-bottom:0px;
+}
+
+.top_slider .col-4{
+	background-color: #000;
+	opacity:0.7;
+	text-align: left;
+	color: #fff;
+	padding-right:0px;
+	padding-left:20px;
+	padding-top:30px;
+	font-weight: lighter;
+}
+
+.top_slider_inside span:nth-child(2){
+		color:#8ACD2C;
+		font-weight: normal;
+}
+
+.top_slider_inside .subheader{
+	margin:0;
+}
+.top_slider_inside .subheader::after{border:0;}
+
+.top_slider .slider_link{
+	display:block;
+	width:30px;
+	height:30px;
+	float:right;
+	background: url(img/btn_arrow.gif) 50% 50% no-repeat;
+	background-size: 18px 22px;
+	background-color: #8ACD2C; 	
+}
+
+.top_slider .slider_link:hover{
+	opacity:0.5;	
+}
+/*Slider End*/
+/*About Start*/
+
+.about{
+	height:248px;
+	background: url(img/bg_about.gif) 0 0 no-repeat;
+	background-size: cover;
+	padding-top:60px;
+}
+
+.about span{ 
+	display: block;
+	padding-bottom: 10px;
+
+}
+/*About End*/
+/*Product Start*/
+
+.product_card .col-12{
+	height:155px;
+	padding:0;
+	text-transform: uppercase;
+	background: linear-gradient(to top right, #C0C0BF, #fff);
+	border:5px solid #ededef;
+	margin:10px;
+	position: relative;
+}
+
+.product_card img{
+	display: block;
+	position: absolute;
+	z-index:10;
+	left:-20px;
+	top:30px;
+}
+
+.product_card_inside{
+	height:100%;
+	margin: 10px 10px -20px 10px;
+}
+
+.product_card_inside .product_size span:nth-child(3){
+	color:#8ACD2C;
+}
+
+.product_price{
+	display: block;
+	position: absolute;
+	z-index:10;
+	bottom:5px;
+	right:10px;
+	font-size:5pt;
+}
+
+.product_price .price{
+	color:#8ACD2C;
+	font-size:25pt;
+	font-family: 'Open Sans Bold', sans-serif;
+	font-weight: bolder;
+}
+
+.product_price .price_text{
+
+	display: inline-block;
+}
+
+.product_card .btn{
+	float: right;
+	border-radius: 0;
+	border:2px solid transparent;
+}
+/*Product End*/
+
+/*Product-Slide Start*/
+
+.product_slide{margin-bottom:0px;}
+
+.product_slide .product_slide_img{padding:0;}
+
+.product_slide img{width:100%;}
+
+.product_slide .product_slide_desc{padding: 0 30px;}
+
+.product_slide .btn{
+	background-color: #fff;
+	color:#8ACD2C;
+	border: 2px solid #8ACD2C;
+}
+
+.product_slide .btn:hover{
+	background-color: #8ACD2C;
+	color: #fff;
+	border:2px solid transparent;
+}
+
+/*Product slide End*/
+
+/*Interior Start*/
+
+.interior{margin-top: 40px;}
+.interior .card_text{
+	text-align: center;
+	vertical-align: middle;
+	color: #fff;
+	margin: auto;
+}
+
+.interior .col-md-3{
+	background-color:#8ACD2C;
+	display:flex;
+}
+
+.interior .col-md-3.gray{background-color: #272829;}
+
+.interior .card_text .subheader{
+	font-size:11pt;
+	margin:10px;
+}
+
+.interior .card_text .subheader::after{border:0;}
+
+.interior .card_img{padding: 0;}
+
+.interior .card_img img{width:100%;}
+
+/*Interior End*/
+/*Client Start*/
+
+.client_card{
+	text-align: center;
+}
+
+.client_card img{
+	
+}
+
+.client_card span{
+	display: block;
+	text-align: center;
+}
+
+/*.client_card .client_profession::after{
+	content: '';
+	display: block;
+	height: 2px;
+	width: 100%;
+	background-color: #8ACD2C;
+	margin:10px 0;
+}*/
+
+.client_card .client_line{
+	content: '';
+	display: block;
+	height: 2px;
+	width: 20px;
+	background-color: #8ACD2C;
+	margin:10px auto;
+}
+
+.client_card .client_profession{
+	color:#a6a6a6;
+}
+
+.client_card .client_photo{
+
+}
+
+/*Client End*/
+/*Footer Start*/
+.page_footer{
+	background-color: #272829;
+	color: #fff;
+	padding-top:30px;
+	margin-bottom: 0;
+}
+
+.page_footer .subheader{
+	color:#fff;
+}
+
+.page_footer span{
+	display: block;
+	line-height: 23pt;
+    color:#4A4A4A;
+}
+
+.page_footer input:not([type="submit"]), .page_footer textarea{
+	font-size: 8pt;
+	width:142px;
+	padding: 5px;
+	margin-right: 5px;
+	margin-bottom: 7px;
+	border-radius: 2px;
+	outline: 0;
+	border:0;
+}
+
+.page_footer textarea{
+	display: block;
+	width:292px;
+}
+
+.footer_contacts{
+	border-right: 1px solid #323232;
+}
+
+.footer_contacts .mail:before{
+	content: '';
+	display: inline-block;
+	width: 9px;
+	height: 6px;
+	background: url(img/icon_mail.png) 0 0 no-repeat;
+	margin-right: 5px;
+}
+
+.footer_contacts .address:before{
+	content: '';
+	display: inline-block;
+	width: 5px;
+	height: 8px;
+	background: url(img/icon_address.png) 0 0 no-repeat;
+	margin-right: 9px;
+}
+
+.footer_contacts .phone:before{
+	content: '';
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	background: url(img/icon_phone.png) 0 0 no-repeat;
+	margin-right: 6px;
+}
+
+.footer_contacts .time:before{
+	content: '';
+	display: inline-block;
+	width: 9px;
+	height: 9px;
+	background: url(img/icon_time.png) 0 0 no-repeat;
+	margin-right: 5px;
+}
+
+.page_footer .footer_feedback_form h2{
+	color:#8ACD2C;
+}
+/*Footer End*/
+
+/*All Rights Start*/
+.page_rights{
+	background-color: #1F1F1F;
+	color: #666;
+	padding:10px 0;
+}
+
+/*All Rights End*/
